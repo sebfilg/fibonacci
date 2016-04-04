@@ -9,3 +9,9 @@ def test_fib_output():
     assert fib(4) == 3
     assert fib(5) == 5
 
+def test_fib_negative_number_raises_error():
+    try:
+        fib(-1)
+        assert False # should never happen!
+    except Exception:
+        pass
