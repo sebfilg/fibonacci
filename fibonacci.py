@@ -1,9 +1,7 @@
 # fib.py
 def fib(n):
-    # recursively calculate Fibonaacci numbers
-    if n == 0:
-        return 0
-    elif n == 1:
-        return 1
-    else:
-        return fib(n-1) + fib(n-2)
+    # iterative Fibonaacci calculation
+    a, b = 0, 1
+    for i in range(0, n):
+        a, b = b, a + b
+    return a
