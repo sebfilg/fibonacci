@@ -13,7 +13,7 @@ def calculate_fib():
     which_number = int(request.args.get('fib_number'))
     return "Fibonacci number #{} is {}".format(
         which_number,
-        str(fib(which_number))
+        fib(which_number)
     )
 
 if __name__ == '__main__':
