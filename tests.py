@@ -15,6 +15,3 @@ def test_fib_negative_number_raises_error():
         assert False # should never happen!
     except Exception:
         pass
-
-def test_fibr_large_numbers():
-    assert fib(1000) > 0 # who even knows the 1000th Fibonacci number?!
