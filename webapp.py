@@ -4,6 +4,11 @@ from flask import Flask, render_template, request
 from fibonacci import fib
 app = Flask(__name__)
 
+from playsound import playsound
+
+def playsound():
+      return playsound('/filepath.mp3')
+
 @app.route('/')
 def welcome():
     return render_template('welcome.html')
