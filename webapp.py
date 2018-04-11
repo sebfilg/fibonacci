@@ -16,6 +16,10 @@ def calculate_fib():
         fib(which_number)
     )
 
+@app.route('/dogs')
+def dogs():
+    return render_template('doggos.html')
+
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 5000))
     app.run(host='0.0.0.0', port=port)
