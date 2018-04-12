@@ -1,0 +1,18 @@
+<!DOCTYPE - CSS>
+<head>
+<title>THIS WEBSITE FILLS YOU WITH DETERMINATION</title>
+</head>
+
+@font-face {
+	font-family: deter;
+	src: url('/fibonacci/DeterminationMonoWeb.woff') format('woff'),
+	}
+
+body{
+	background-color: black;
+}
+
+h1{
+	color: white;
+	font-family: deter;
+}
