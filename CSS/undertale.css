@@ -1,11 +1,12 @@
 <!DOCTYPE css>
+<html>
 <head>
 <title>THIS WEBSITE FILLS YOU WITH DETERMINATION</title>
 </head>
 
 @font-face {
 	font-family: deter;
-	src: url('/fonts/DeterminationMonoWeb.woff') format('woff'),
+	src: url('https://raw.githubusercontent.com/sebfilg/fibonacci/fonts/DeterminationMonoWeb.woff') format('woff'),
 	}
 
 body{
@@ -16,3 +17,4 @@ h1{
 	color: white;
 	font-family: deter;
 }
+</html>
