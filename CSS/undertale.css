@@ -10,11 +10,11 @@
 	}
 
 body{
-	background-color: black;
+	background-color: black !important;
 }
 
 h1{
 	color: white;
-	font-family: deter;
+	font-family: deter !important;
 }
 </html>
